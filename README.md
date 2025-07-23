@@ -6,7 +6,7 @@ This repository contains starter templates and prompt structures for integrating
 - `prompt-templates/` — Prebuilt prompt files for advanced command use
 - `pro_feature_manifest.json` — GPT configuration manifest template 
 - `ProCommand_Assistant.gpt.json` — GPT configuration template
-- `conversation_starters` — Conversation starter suggestions
+- `conversation_starters.json` — Conversation starter suggestions
 
 ## Usage
 Use these templates to enhance your GPT via the ChatGPT GPT builder UI or for white-labeling a structured assistant.
