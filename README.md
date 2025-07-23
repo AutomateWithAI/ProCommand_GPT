@@ -85,7 +85,6 @@ Model routing is automatic unless overridden. The following are default route ma
 - `complex_code`: → o3-pro
 - `legal_docs`: → gpt-4.1
 - `deep_research`: → gpt-4.5-preview
-- `video_task`: → sora
 
 You can override any route with `/model`.
 
