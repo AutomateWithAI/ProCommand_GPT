@@ -26,7 +26,6 @@ Initiate autonomous execution for specific domains:
 - `research`: Longform analysis with citations
 - `audit`: File/spreadsheet compliance assessment
 - `operator`: Simulated form/UI interaction
-- `sora`: Video generation via Sora pipeline
 
 ### `/deepsearch [query]`
 
