@@ -1,0 +1,3 @@
+### /priority and /debugmode Prompts
+/priority — Activate fast inference mode
+/debugmode — Show internal routing metadata and model selection

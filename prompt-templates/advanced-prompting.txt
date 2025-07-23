@@ -1,0 +1,3 @@
+### Compound Prompts
+/model o3-pro + /priority + /debugmode — Use full-performance advanced mode with transparent output
+/agent audit + /deepsearch — Perform a security classification audit with longform research

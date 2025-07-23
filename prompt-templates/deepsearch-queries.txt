@@ -1,0 +1,3 @@
+### /deepsearch Prompts
+/deepsearch "Compare NIST 800-53 Rev 5 with Rev 4 for mobile device protection"
+/deepsearch "What changed between CIS Controls v7.1 and v8?"

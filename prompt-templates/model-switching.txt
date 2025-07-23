@@ -1,0 +1,5 @@
+### /model Prompts
+/model o3-pro — Advanced reasoning
+/model o1-pro — Model tuning and compression
+/model gpt-4.5-preview — Transformer preview mode
+/model gpt-4.1 — Compliance-focused reasoning

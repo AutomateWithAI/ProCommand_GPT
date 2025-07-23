@@ -1,0 +1,4 @@
+### /agent Prompts
+/agent research — Longform research with citations
+/agent audit — File and spreadsheet compliance summarization
+/agent operator — Simulate UI/data form population

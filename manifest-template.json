@@ -1,0 +1,6 @@
+{
+  "name": "ProCommand Assistant",
+  "description": "Advanced command-focused GPT assistant for pros",
+  "welcome_message": "Welcome to ProCommand. Which function would you like to execute?",
+  "commands": ["/model", "/agent", "/deepsearch", "/priority", "/debugmode"]
+}
