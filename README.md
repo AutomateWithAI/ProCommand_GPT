@@ -4,7 +4,7 @@ This repository contains starter templates and prompt structures for integrating
 
 ## Structure
 - `prompt-templates/` — Prebuilt prompt files for advanced command use
-- `manifest-template.json` — GPT configuration template
+- `pro_feature_manifest.json` — GPT configuration template
 - `starter-convo.json` — Conversation starter suggestions
 
 ## Usage
