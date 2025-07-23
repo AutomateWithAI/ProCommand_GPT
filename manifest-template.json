@@ -1,6 +1,178 @@
 {
-  "name": "ProCommand Assistant",
-  "description": "Advanced command-focused GPT assistant for pros",
-  "welcome_message": "Welcome to ProCommand. Which function would you like to execute?",
-  "commands": ["/model", "/agent", "/deepsearch", "/priority", "/debugmode"]
+  "identity": {
+    "user_role": "ChatGPT Pro Subscriber",
+    "use_case": "Advanced programming, AI automation, deep research, multimodal ops",
+    "subscription": "Pro",
+    "assert_pro_access": true
+  },
+  "models": [
+    {
+      "name": "gpt-4o",
+      "alias": "/model gpt-4o",
+      "capabilities": [
+        "multimodal",
+        "real-time",
+        "fastest latency",
+        "high reliability"
+      ],
+      "use_cases": [
+        "chat",
+        "image+code analysis",
+        "general tasks",
+        "UI fallback"
+      ]
+    },
+    {
+      "name": "gpt-4.1",
+      "alias": "/model gpt-4.1",
+      "capabilities": [
+        "long context",
+        "high-accuracy",
+        "formal reasoning"
+      ],
+      "use_cases": [
+        "policy documents",
+        "contractual analysis",
+        "refined prose"
+      ]
+    },
+    {
+      "name": "gpt-4.5-preview",
+      "alias": "/model gpt-4.5-preview",
+      "capabilities": [
+        "preview features",
+        "emerging improvements",
+        "API parity"
+      ],
+      "use_cases": [
+        "pre-production validation",
+        "latest-model experimentation"
+      ]
+    },
+    {
+      "name": "o3-pro",
+      "alias": "/model o3-pro",
+      "capabilities": [
+        "deep reasoning",
+        "high token throughput",
+        "pro-only logic"
+      ],
+      "use_cases": [
+        "code generation",
+        "security architecture",
+        "multi-hop workflows"
+      ]
+    },
+    {
+      "name": "o1-pro",
+      "alias": "/model o1-pro",
+      "capabilities": [
+        "precision analysis",
+        "data structures",
+        "language modeling"
+      ],
+      "use_cases": [
+        "advanced NLP",
+        "data normalization",
+        "symbolic reasoning"
+      ]
+    },
+    {
+      "name": "o4-mini",
+      "alias": "/model o4-mini",
+      "capabilities": [
+        "low-latency",
+        "token-efficient",
+        "budget compute"
+      ],
+      "use_cases": [
+        "embedded tasks",
+        "microservices",
+        "agent fallback"
+      ]
+    }
+  ],
+  "commands": {
+    "/model": {
+      "description": "Switch to any available Pro-tier model manually",
+      "usage": "/model [model-name]",
+      "examples": [
+        "/model o3-pro",
+        "/model gpt-4.1",
+        "/model gpt-4o"
+      ]
+    },
+    "/agent": {
+      "description": "Activate autonomous agent for a Pro task type",
+      "options": {
+        "research": "Run a deep research task using web + context",
+        "operator": "Initiate web form submission or site navigation",
+        "sora": "Generate a video using the Sora model pipeline"
+      }
+    },
+    "/deepsearch": {
+      "description": "Run a Deep Research query with citations",
+      "usage": "/deepsearch [your query]",
+      "note": "Uses GPT+web, up to 250 tasks/month"
+    },
+    "/priority": {
+      "description": "Trigger Pro-class priority mode (max token rate)",
+      "note": "Bypasses frontend queue throttling"
+    },
+    "/screen": {
+      "description": "Enable screen-sharing analysis mode",
+      "availability": "Native app clients only"
+    },
+    "/voice": {
+      "description": "Enable high-quality voice mode",
+      "availability": "Native mobile and desktop ChatGPT clients"
+    }
+  },
+  "capabilities": {
+    "multimodal": true,
+    "deep_research": true,
+    "agent_execution": true,
+    "operator_mode": true,
+    "sora_video_generation": "unlimited",
+    "voice_mode": true,
+    "screen_mode": true,
+    "priority_routing": true,
+    "model_selector_override": true
+  },
+  "model_execution": {
+    "routing": {
+      "default": "gpt-4o",
+      "complex_code": "o3-pro",
+      "legal_docs": "gpt-4.1",
+      "deep_research": "gpt-4.5-preview",
+      "video_task": "sora"
+    },
+    "overrides": {
+      "always_use_pro_models": true,
+      "fallback_to_preview": true,
+      "bypass_ui_model_caps": true
+    }
+  },
+  "diagnostics": {
+    "missing_ui_models": [
+      "o3-pro",
+      "gpt-4.5-preview"
+    ],
+    "expected_pro_models": [
+      "gpt-4o",
+      "gpt-4.1",
+      "gpt-4.5-preview",
+      "o3-pro",
+      "o1-pro",
+      "o4-mini"
+    ],
+    "recommendation": "Use `/model` to override UI model selection constraints"
+  },
+  "execution_flags": {
+    "pro_assertion": true,
+    "enable_internal_features": true,
+    "agentic_preference": true,
+    "auto_model_routing": true,
+    "debug_model_switch": false
+  }
 }
