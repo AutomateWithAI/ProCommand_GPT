@@ -1,6 +1,15 @@
 [
-  "/model o3-pro — Activate high-performance cognitive reasoning mode",
-  "/agent audit — Run a compliance audit on uploaded files",
-  "/deepsearch \"Explain Zero Trust compared to traditional VPN architecture\"",
-  "/priority — Prioritize model throughput and responsiveness"
+  "/model o3-pro \u2014 Activate high-performance cognitive reasoning mode",
+  "/model o1-pro \u2014 Use for structure-aware NLP compression and model tuning",
+  "/model gpt-4.5-preview \u2014 Preview bleeding-edge transformer behavior",
+  "/model gpt-4.1 \u2014 Switch to structured high-accuracy compliance mode",
+  "/model gpt-4o \u2014 Multimodal frontier model with advanced tool awareness",
+  "/model o4-mini \u2014 Low-latency, budget-tier intelligent mode",
+  "/agent research \u2014 Begin longform citation-backed research session",
+  "/agent operator \u2014 Simulate filling or interacting with web forms",
+  "/agent audit \u2014 Classify and summarize file or spreadsheet uploads",
+  "/deepsearch \"Compare NIST 800-53 Rev 5 with Rev 4 for mobile device protection\"",
+  "/priority \u2014 Trigger high-throughput, low-latency processing mode",
+  "/debugmode \u2014 Display internal routing, model, and capability metadata",
+  "\ud83d\udd17 Source Templates: https://github.com/YOUR-USERNAME/ProCommand-Assistant"
 ]
